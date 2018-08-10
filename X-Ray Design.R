@@ -1,7 +1,7 @@
 ### X-Ray Design ###
+pathFiles <- setwd(paste0(choose.dir(caption="Select folder with source code."), "\\"))
+source('LibrariesAndSettings.R')
 
-library("tgp")
-library("MASS")
 
 # Import the data.
 xrx <- read.table("X_Sam", header = FALSE, sep=",")[,c(1,3,2)]   # proportion pmma, thickness, KV
