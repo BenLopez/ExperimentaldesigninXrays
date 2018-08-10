@@ -1,4 +1,4 @@
-# pathFiles <- setwd(paste0(choose.dir(caption="Select folder with source code."), "\\"))
+pathFiles <- setwd( paste0(dirname(file.choose( )) , "\\") )
 # source('LibrariesAndSettings.R')
 library("tgp")
 library("MASS")
